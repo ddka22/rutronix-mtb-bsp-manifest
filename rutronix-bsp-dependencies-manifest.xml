@@ -36,7 +36,7 @@
         </dependees>
       </version>
 	    <version>
-        <commit>latest-v1.X</commit>
+        <commit>release-1.0.0</commit>
         <dependees>
           <dependee>
             <id>capsense</id>
