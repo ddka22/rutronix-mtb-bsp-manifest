@@ -1,0 +1,41 @@
+<boards>
+  <board default_location="local">
+    <id>RutDevKit-PSoC62</id>
+    <category>PSoC&#8482; 6 BSPs</category>
+    <board_uri>https://github.com/ddka22/TARGET_RutDevKit-PSoC62</board_uri>
+    <chips>
+      <mcu>CY8C6245AZI-S3D72</mcu>
+    </chips>
+    <name>RutDevKit-PSoC62</name>
+    <summary>The BSP RutDevKit-PSoC62 developed by Rutronix Offers a complete solution for hardware and firmware developers for proof of
+concepts in a very short time</summary>
+    <prov_capabilities>adc arduino capsense capsense_button capsense_linear_slider cat1 comp dma flash_2048k hal i2c i2s j2 led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm psoc6 qspi rgb_led rtc sdhc smart_io spi sram_1024k std_crypto switch uart</prov_capabilities>
+    <description><![CDATA[
+        <div class="category">Kit Features:</div><ul>
+        <li>Ready-to-Use CAPSENSE&#8482; Trackpad</li>
+        <li>EZ-BLE PRoC module</li>
+        <li>Potentiometer</li>
+        <li>Rechargeable coin-cell battery</li>
+        </ul><p/>
+        <div class="category">Kit Contents:</div><ul>
+        <li>RutDevKit-PSoC62</li>
+        <li>USB Standard-A to Micro-B cable</li>
+        <li>ABC Sensor</li>
+        <li>Four press-fit connectors (for Arduino headers)</li>
+        <li>Four jumper wires</li>
+        <li>Quick Start Guide</li>
+        </ul>
+      ]]></description>
+    <documentation_url>https://www.rutronik24.com/product/rutronik/rdk2/16440182.html</documentation_url>
+    <versions>
+	  <version tools_min_version="2.4.0" tools_max_version="2.4.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version tools_min_version="2.4.0" tools_max_version="2.4.1" flow_version="1.0,2.0" prov_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+</boards>
